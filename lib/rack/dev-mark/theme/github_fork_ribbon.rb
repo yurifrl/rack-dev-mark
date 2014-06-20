@@ -10,7 +10,7 @@ module Rack
         end
 
         def insert_into(html)
-          position = @options[:position] || 'left'
+          position = @options[:position] || 'right'
           color = @options[:color] || 'red'
           fixed = @options[:fixed] ? ' fixed' : ''
           s = <<-EOS
